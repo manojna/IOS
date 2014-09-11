@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A9E42D519C0074F00E93FD7 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E42D419C0074F00E93FD7 /* man.png */; };
+		8A9E42D919C007D600E93FD7 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E42D819C007D600E93FD7 /* music.png */; };
+		8A9E42DB19C007FF00E93FD7 /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E42DA19C007FF00E93FD7 /* pen.png */; };
+		8A9E42DF19C00C0100E93FD7 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E42DE19C00C0100E93FD7 /* photo1.png */; };
+		8A9E42E119C00E1D00E93FD7 /* manogna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E42E019C00E1D00E93FD7 /* manogna.jpg */; };
 		8A9E7CBA19BF0AD100B6A5AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E7CB919BF0AD100B6A5AE /* Foundation.framework */; };
 		8A9E7CBC19BF0AD100B6A5AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E7CBB19BF0AD100B6A5AE /* CoreGraphics.framework */; };
 		8A9E7CBE19BF0AD100B6A5AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E7CBD19BF0AD100B6A5AE /* UIKit.framework */; };
@@ -19,6 +24,16 @@
 		8A9E7CD519BF0AD100B6A5AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E7CBD19BF0AD100B6A5AE /* UIKit.framework */; };
 		8A9E7CDD19BF0AD100B6A5AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CDB19BF0AD100B6A5AE /* InfoPlist.strings */; };
 		8A9E7CDF19BF0AD100B6A5AE /* TabBarControllersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CDE19BF0AD100B6A5AE /* TabBarControllersTests.m */; };
+		8A9E7CEB19BF0AE600B6A5AE /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CE919BF0AE600B6A5AE /* TabBarViewController.m */; };
+		8A9E7CEC19BF0AE600B6A5AE /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CEA19BF0AE600B6A5AE /* TabBarViewController.xib */; };
+		8A9E7CF019BF0F5500B6A5AE /* SecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CEE19BF0F5500B6A5AE /* SecondTabViewController.m */; };
+		8A9E7CF119BF0F5500B6A5AE /* SecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CEF19BF0F5500B6A5AE /* SecondTabViewController.xib */; };
+		8A9E7CF519BF0F7100B6A5AE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CF319BF0F7100B6A5AE /* ThirdViewController.m */; };
+		8A9E7CF619BF0F7100B6A5AE /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CF419BF0F7100B6A5AE /* ThirdViewController.xib */; };
+		8A9E7CFA19BF0F8600B6A5AE /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CF819BF0F8600B6A5AE /* FourthViewController.m */; };
+		8A9E7CFB19BF0F8600B6A5AE /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CF919BF0F8600B6A5AE /* FourthViewController.xib */; };
+		8A9E7CFF19BF188700B6A5AE /* labelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E7CFD19BF188700B6A5AE /* labelViewController.m */; };
+		8A9E7D0019BF188700B6A5AE /* labelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E7CFE19BF188700B6A5AE /* labelViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A9E42D419C0074F00E93FD7 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		8A9E42D819C007D600E93FD7 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		8A9E42DA19C007FF00E93FD7 /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		8A9E42DE19C00C0100E93FD7 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		8A9E42E019C00E1D00E93FD7 /* manogna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manogna.jpg; sourceTree = "<group>"; };
 		8A9E7CB619BF0AD100B6A5AE /* TabBarControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9E7CB919BF0AD100B6A5AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A9E7CBB19BF0AD100B6A5AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +68,21 @@
 		8A9E7CDA19BF0AD100B6A5AE /* TabBarControllersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarControllersTests-Info.plist"; sourceTree = "<group>"; };
 		8A9E7CDC19BF0AD100B6A5AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9E7CDE19BF0AD100B6A5AE /* TabBarControllersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllersTests.m; sourceTree = "<group>"; };
+		8A9E7CE819BF0AE600B6A5AE /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		8A9E7CE919BF0AE600B6A5AE /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		8A9E7CEA19BF0AE600B6A5AE /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		8A9E7CED19BF0F5500B6A5AE /* SecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTabViewController.h; sourceTree = "<group>"; };
+		8A9E7CEE19BF0F5500B6A5AE /* SecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTabViewController.m; sourceTree = "<group>"; };
+		8A9E7CEF19BF0F5500B6A5AE /* SecondTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTabViewController.xib; sourceTree = "<group>"; };
+		8A9E7CF219BF0F7100B6A5AE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8A9E7CF319BF0F7100B6A5AE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8A9E7CF419BF0F7100B6A5AE /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		8A9E7CF719BF0F8600B6A5AE /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		8A9E7CF819BF0F8600B6A5AE /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		8A9E7CF919BF0F8600B6A5AE /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
+		8A9E7CFC19BF188700B6A5AE /* labelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = labelViewController.h; sourceTree = "<group>"; };
+		8A9E7CFD19BF188700B6A5AE /* labelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = labelViewController.m; sourceTree = "<group>"; };
+		8A9E7CFE19BF188700B6A5AE /* labelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = labelViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +112,12 @@
 		8A9E7CAD19BF0AD100B6A5AE = {
 			isa = PBXGroup;
 			children = (
+				8A9E7CE819BF0AE600B6A5AE /* TabBarViewController.h */,
+				8A9E7CE919BF0AE600B6A5AE /* TabBarViewController.m */,
+				8A9E7CFC19BF188700B6A5AE /* labelViewController.h */,
+				8A9E7CFD19BF188700B6A5AE /* labelViewController.m */,
+				8A9E7CFE19BF188700B6A5AE /* labelViewController.xib */,
+				8A9E7CEA19BF0AE600B6A5AE /* TabBarViewController.xib */,
 				8A9E7CBF19BF0AD100B6A5AE /* TabBarControllers */,
 				8A9E7CD819BF0AD100B6A5AE /* TabBarControllersTests */,
 				8A9E7CB819BF0AD100B6A5AE /* Frameworks */,
@@ -109,6 +150,20 @@
 			children = (
 				8A9E7CC819BF0AD100B6A5AE /* STAppDelegate.h */,
 				8A9E7CC919BF0AD100B6A5AE /* STAppDelegate.m */,
+				8A9E42E019C00E1D00E93FD7 /* manogna.jpg */,
+				8A9E42DE19C00C0100E93FD7 /* photo1.png */,
+				8A9E42DA19C007FF00E93FD7 /* pen.png */,
+				8A9E42D819C007D600E93FD7 /* music.png */,
+				8A9E42D419C0074F00E93FD7 /* man.png */,
+				8A9E7CED19BF0F5500B6A5AE /* SecondTabViewController.h */,
+				8A9E7CEE19BF0F5500B6A5AE /* SecondTabViewController.m */,
+				8A9E7CEF19BF0F5500B6A5AE /* SecondTabViewController.xib */,
+				8A9E7CF219BF0F7100B6A5AE /* ThirdViewController.h */,
+				8A9E7CF319BF0F7100B6A5AE /* ThirdViewController.m */,
+				8A9E7CF419BF0F7100B6A5AE /* ThirdViewController.xib */,
+				8A9E7CF719BF0F8600B6A5AE /* FourthViewController.h */,
+				8A9E7CF819BF0F8600B6A5AE /* FourthViewController.m */,
+				8A9E7CF919BF0F8600B6A5AE /* FourthViewController.xib */,
 				8A9E7CCB19BF0AD100B6A5AE /* Images.xcassets */,
 				8A9E7CC019BF0AD100B6A5AE /* Supporting Files */,
 			);
@@ -221,6 +276,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9E7CC419BF0AD100B6A5AE /* InfoPlist.strings in Resources */,
+				8A9E7CEC19BF0AE600B6A5AE /* TabBarViewController.xib in Resources */,
+				8A9E7D0019BF188700B6A5AE /* labelViewController.xib in Resources */,
+				8A9E42E119C00E1D00E93FD7 /* manogna.jpg in Resources */,
+				8A9E7CF119BF0F5500B6A5AE /* SecondTabViewController.xib in Resources */,
+				8A9E42DF19C00C0100E93FD7 /* photo1.png in Resources */,
+				8A9E7CF619BF0F7100B6A5AE /* ThirdViewController.xib in Resources */,
+				8A9E42D919C007D600E93FD7 /* music.png in Resources */,
+				8A9E7CFB19BF0F8600B6A5AE /* FourthViewController.xib in Resources */,
+				8A9E42D519C0074F00E93FD7 /* man.png in Resources */,
+				8A9E42DB19C007FF00E93FD7 /* pen.png in Resources */,
 				8A9E7CCC19BF0AD100B6A5AE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9E7CFA19BF0F8600B6A5AE /* FourthViewController.m in Sources */,
 				8A9E7CC619BF0AD100B6A5AE /* main.m in Sources */,
+				8A9E7CF519BF0F7100B6A5AE /* ThirdViewController.m in Sources */,
+				8A9E7CEB19BF0AE600B6A5AE /* TabBarViewController.m in Sources */,
+				8A9E7CF019BF0F5500B6A5AE /* SecondTabViewController.m in Sources */,
 				8A9E7CCA19BF0AD100B6A5AE /* STAppDelegate.m in Sources */,
+				8A9E7CFF19BF188700B6A5AE /* labelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +510,7 @@
 				8A9E7CE419BF0AD100B6A5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A9E7CE519BF0AD100B6A5AE /* Build configuration list for PBXNativeTarget "TabBarControllersTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +519,7 @@
 				8A9E7CE719BF0AD100B6A5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
