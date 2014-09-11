@@ -19,6 +19,8 @@
 		8A9E43AA19C0577700E93FD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E439219C0577700E93FD7 /* UIKit.framework */; };
 		8A9E43B219C0577700E93FD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E43B019C0577700E93FD7 /* InfoPlist.strings */; };
 		8A9E43B419C0577700E93FD7 /* PickerviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E43B319C0577700E93FD7 /* PickerviewTests.m */; };
+		8A9E43C019C0579900E93FD7 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9E43BE19C0579900E93FD7 /* PickerViewController.m */; };
+		8A9E43C119C0579900E93FD7 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9E43BF19C0579900E93FD7 /* PickerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		8A9E43AF19C0577700E93FD7 /* PickerviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerviewTests-Info.plist"; sourceTree = "<group>"; };
 		8A9E43B119C0577700E93FD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9E43B319C0577700E93FD7 /* PickerviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerviewTests.m; sourceTree = "<group>"; };
+		8A9E43BD19C0579900E93FD7 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		8A9E43BE19C0579900E93FD7 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		8A9E43BF19C0579900E93FD7 /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		8A9E438219C0577700E93FD7 = {
 			isa = PBXGroup;
 			children = (
+				8A9E43BD19C0579900E93FD7 /* PickerViewController.h */,
+				8A9E43BE19C0579900E93FD7 /* PickerViewController.m */,
+				8A9E43BF19C0579900E93FD7 /* PickerViewController.xib */,
 				8A9E439419C0577700E93FD7 /* Pickerview */,
 				8A9E43AD19C0577700E93FD7 /* PickerviewTests */,
 				8A9E438D19C0577700E93FD7 /* Frameworks */,
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9E439919C0577700E93FD7 /* InfoPlist.strings in Resources */,
+				8A9E43C119C0579900E93FD7 /* PickerViewController.xib in Resources */,
 				8A9E43A119C0577700E93FD7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9E439B19C0577700E93FD7 /* main.m in Sources */,
+				8A9E43C019C0579900E93FD7 /* PickerViewController.m in Sources */,
 				8A9E439F19C0577700E93FD7 /* STAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

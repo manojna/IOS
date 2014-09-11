@@ -1,13 +1,16 @@
 //
 //  STAppDelegate.m
-//  Pickerview
+//  TabBarControllers
 //
-//  Created by Paradigm on 9/10/14.
+//  Created by Paradigm on 9/9/14.
 //  Copyright (c) 2014 paradigmcreatives. All rights reserved.
 //
 
 #import "STAppDelegate.h"
-#import "PickerViewController.h"
+#import "SecondTabViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
+
 @implementation STAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,9 +18,31 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    _tabbar =[[UITabBarController alloc]init];
+    [self.window setRootViewController:_tabbar];
+    TabBarViewController *first = [[TabBarViewController alloc] initWithNibName:@"TabBarViewController" bundle:nil];
+    SecondTabViewController *second = [[SecondTabViewController alloc] initWithNibName:@"SecondTabViewController" bundle:nil];
+    ThirdViewController *third =[[ThirdViewController alloc] initWithNibName:@"ThirdViewController" bundle:nil];
+    FourthViewController *four = [[FourthViewController alloc] initWithNibName:@"FourthViewController" bundle:nil];
+    _nav1 = [[UINavigationController alloc] initWithRootViewController:first];
+    _nav2 = [[UINavigationController alloc] initWithRootViewController:second];
+    _nav3 = [[UINavigationController alloc] initWithRootViewController:third];
+    _nav4 = [[UINavigationController alloc] initWithRootViewController:four];
+    
+     _nav1.tabBarItem.title = @"First";
+     _nav2.tabBarItem.title = @"second";
+     _nav3.tabBarItem.title = @"Third";
+     _nav4.tabBarItem.title = @"Four";
+    _nav1.tabBarItem.image = [UIImage imageNamed:@"man.png"];
+    _nav2.tabBarItem.image = [UIImage imageNamed:@"photo1.png"];
+    _nav3.tabBarItem.image = [UIImage imageNamed:@"music.png"];
+    _nav4.tabBarItem.image = [UIImage imageNamed:@"pen.png"];
+    
+    _tabbar.viewControllers = [NSArray arrayWithObjects:_nav1,_nav2,_nav3,_nav4,nil];
+    
+    
+    
     [self.window makeKeyAndVisible];
-    PickerViewController *picker = [[PickerViewController alloc]initWithNibName:@"PickerViewController" bundle:nil];
-    [self.window setRootViewController:picker];
     return YES;
 }
 
