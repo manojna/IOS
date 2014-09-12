@@ -19,6 +19,11 @@
 		8A9EA4A919C1AD1C00769A4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EA49119C1AD1C00769A4C /* UIKit.framework */; };
 		8A9EA4B119C1AD1C00769A4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9EA4AF19C1AD1C00769A4C /* InfoPlist.strings */; };
 		8A9EA4B319C1AD1C00769A4C /* MapViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EA4B219C1AD1C00769A4C /* MapViewsTests.m */; };
+		8A9EA4BF19C1AD3200769A4C /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EA4BD19C1AD3200769A4C /* mapViewController.m */; };
+		8A9EA4C019C1AD3200769A4C /* mapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9EA4BE19C1AD3200769A4C /* mapViewController.xib */; };
+		8A9EA4C219C1AD4400769A4C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EA4C119C1AD4400769A4C /* MapKit.framework */; };
+		8A9EA4C419C1AD4D00769A4C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9EA4C319C1AD4D00769A4C /* CoreLocation.framework */; };
+		8A9EA4C719C1C39E00769A4C /* Anotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9EA4C619C1C39E00769A4C /* Anotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,13 @@
 		8A9EA4AE19C1AD1C00769A4C /* MapViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapViewsTests-Info.plist"; sourceTree = "<group>"; };
 		8A9EA4B019C1AD1C00769A4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9EA4B219C1AD1C00769A4C /* MapViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewsTests.m; sourceTree = "<group>"; };
+		8A9EA4BC19C1AD3200769A4C /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
+		8A9EA4BD19C1AD3200769A4C /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
+		8A9EA4BE19C1AD3200769A4C /* mapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapViewController.xib; sourceTree = "<group>"; };
+		8A9EA4C119C1AD4400769A4C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8A9EA4C319C1AD4D00769A4C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8A9EA4C519C1C39E00769A4C /* Anotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anotation.h; sourceTree = "<group>"; };
+		8A9EA4C619C1C39E00769A4C /* Anotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9EA4C419C1AD4D00769A4C /* CoreLocation.framework in Frameworks */,
+				8A9EA4C219C1AD4400769A4C /* MapKit.framework in Frameworks */,
 				8A9EA49019C1AD1C00769A4C /* CoreGraphics.framework in Frameworks */,
 				8A9EA49219C1AD1C00769A4C /* UIKit.framework in Frameworks */,
 				8A9EA48E19C1AD1C00769A4C /* Foundation.framework in Frameworks */,
@@ -77,6 +91,11 @@
 		8A9EA48119C1AD1C00769A4C = {
 			isa = PBXGroup;
 			children = (
+				8A9EA4BC19C1AD3200769A4C /* mapViewController.h */,
+				8A9EA4BD19C1AD3200769A4C /* mapViewController.m */,
+				8A9EA4C519C1C39E00769A4C /* Anotation.h */,
+				8A9EA4C619C1C39E00769A4C /* Anotation.m */,
+				8A9EA4BE19C1AD3200769A4C /* mapViewController.xib */,
 				8A9EA49319C1AD1C00769A4C /* MapViews */,
 				8A9EA4AC19C1AD1C00769A4C /* MapViewsTests */,
 				8A9EA48C19C1AD1C00769A4C /* Frameworks */,
@@ -96,6 +115,8 @@
 		8A9EA48C19C1AD1C00769A4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A9EA4C319C1AD4D00769A4C /* CoreLocation.framework */,
+				8A9EA4C119C1AD4400769A4C /* MapKit.framework */,
 				8A9EA48D19C1AD1C00769A4C /* Foundation.framework */,
 				8A9EA48F19C1AD1C00769A4C /* CoreGraphics.framework */,
 				8A9EA49119C1AD1C00769A4C /* UIKit.framework */,
@@ -220,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9EA4C019C1AD3200769A4C /* mapViewController.xib in Resources */,
 				8A9EA49819C1AD1C00769A4C /* InfoPlist.strings in Resources */,
 				8A9EA4A019C1AD1C00769A4C /* Images.xcassets in Resources */,
 			);
@@ -241,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9EA49A19C1AD1C00769A4C /* main.m in Sources */,
+				8A9EA4BF19C1AD3200769A4C /* mapViewController.m in Sources */,
 				8A9EA49E19C1AD1C00769A4C /* STAppDelegate.m in Sources */,
+				8A9EA4C719C1C39E00769A4C /* Anotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +464,7 @@
 				8A9EA4B819C1AD1C00769A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A9EA4B919C1AD1C00769A4C /* Build configuration list for PBXNativeTarget "MapViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +473,7 @@
 				8A9EA4BB19C1AD1C00769A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

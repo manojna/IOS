@@ -7,7 +7,7 @@
 //
 
 #import "STAppDelegate.h"
-
+#import "mapViewController.h"
 @implementation STAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    mapViewController *mapView = [[mapViewController alloc] initWithNibName:@"mapViewController" bundle:nil];
+    [self.window setRootViewController:mapView];
     [self.window makeKeyAndVisible];
     return YES;
 }
