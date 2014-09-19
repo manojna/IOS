@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A9FF95119C93996006ADD1E /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF95019C93996006ADD1E /* DetailsTableViewController.m */; };
+		8A9FF95719C9491A006ADD1E /* DetailsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF95619C9491A006ADD1E /* DetailsObject.m */; };
 		8AA0026219C841A2004241CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0026119C841A2004241CC /* Foundation.framework */; };
 		8AA0026419C841A2004241CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0026319C841A2004241CC /* CoreGraphics.framework */; };
 		8AA0026619C841A2004241CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0026519C841A2004241CC /* UIKit.framework */; };
@@ -14,13 +16,18 @@
 		8AA0026E19C841A2004241CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0026D19C841A2004241CC /* main.m */; };
 		8AA0027219C841A2004241CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0027119C841A2004241CC /* AppDelegate.m */; };
 		8AA0027519C841A2004241CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA0027319C841A2004241CC /* Main.storyboard */; };
-		8AA0027819C841A2004241CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0027719C841A2004241CC /* ViewController.m */; };
 		8AA0027A19C841A2004241CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA0027919C841A2004241CC /* Images.xcassets */; };
 		8AA0028119C841A2004241CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0028019C841A2004241CC /* XCTest.framework */; };
 		8AA0028219C841A2004241CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0026119C841A2004241CC /* Foundation.framework */; };
 		8AA0028319C841A2004241CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA0026519C841A2004241CC /* UIKit.framework */; };
 		8AA0028B19C841A2004241CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA0028919C841A2004241CC /* InfoPlist.strings */; };
 		8AA0028D19C841A2004241CC /* SchoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0028C19C841A2004241CC /* SchoolTests.m */; };
+		8AA0029819C841D3004241CC /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0029719C841D3004241CC /* FirstTableViewController.m */; };
+		8AA0029B19C84208004241CC /* SectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0029A19C84208004241CC /* SectionTableViewController.m */; };
+		8AA0029E19C8421C004241CC /* ClassDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0029D19C8421C004241CC /* ClassDetails.m */; };
+		8AA002A119C84AAB004241CC /* SectionDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA002A019C84AAB004241CC /* SectionDetails.m */; };
+		8AA002A419C84D74004241CC /* StudentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA002A319C84D74004241CC /* StudentTableViewController.m */; };
+		8AA002A719C8511B004241CC /* StudentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA002A619C8511B004241CC /* StudentObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A9FF94F19C93996006ADD1E /* DetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailsTableViewController.h; path = ../DetailsTableViewController.h; sourceTree = "<group>"; };
+		8A9FF95019C93996006ADD1E /* DetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailsTableViewController.m; path = ../DetailsTableViewController.m; sourceTree = "<group>"; };
+		8A9FF95519C9491A006ADD1E /* DetailsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsObject.h; sourceTree = "<group>"; };
+		8A9FF95619C9491A006ADD1E /* DetailsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsObject.m; sourceTree = "<group>"; };
 		8AA0025E19C841A2004241CC /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA0026119C841A2004241CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AA0026319C841A2004241CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +56,24 @@
 		8AA0027019C841A2004241CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA0027119C841A2004241CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AA0027419C841A2004241CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA0027619C841A2004241CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA0027719C841A2004241CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA0027919C841A2004241CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA0027F19C841A2004241CC /* SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA0028019C841A2004241CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AA0028819C841A2004241CC /* SchoolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoolTests-Info.plist"; sourceTree = "<group>"; };
 		8AA0028A19C841A2004241CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AA0028C19C841A2004241CC /* SchoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolTests.m; sourceTree = "<group>"; };
+		8AA0029619C841D3004241CC /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTableViewController.h; path = ../FirstTableViewController.h; sourceTree = "<group>"; };
+		8AA0029719C841D3004241CC /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTableViewController.m; path = ../FirstTableViewController.m; sourceTree = "<group>"; };
+		8AA0029919C84208004241CC /* SectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTableViewController.h; sourceTree = "<group>"; };
+		8AA0029A19C84208004241CC /* SectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTableViewController.m; sourceTree = "<group>"; };
+		8AA0029C19C8421C004241CC /* ClassDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassDetails.h; sourceTree = "<group>"; };
+		8AA0029D19C8421C004241CC /* ClassDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassDetails.m; sourceTree = "<group>"; };
+		8AA0029F19C84AAB004241CC /* SectionDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionDetails.h; sourceTree = "<group>"; };
+		8AA002A019C84AAB004241CC /* SectionDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionDetails.m; sourceTree = "<group>"; };
+		8AA002A219C84D74004241CC /* StudentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentTableViewController.h; sourceTree = "<group>"; };
+		8AA002A319C84D74004241CC /* StudentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentTableViewController.m; sourceTree = "<group>"; };
+		8AA002A519C8511B004241CC /* StudentObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentObject.h; sourceTree = "<group>"; };
+		8AA002A619C8511B004241CC /* StudentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +103,7 @@
 		8AA0025519C841A1004241CC = {
 			isa = PBXGroup;
 			children = (
+				9442782319C96F7F00CD2D0E /* Modal */,
 				8AA0026719C841A2004241CC /* School */,
 				8AA0028619C841A2004241CC /* SchoolTests */,
 				8AA0026019C841A2004241CC /* Frameworks */,
@@ -115,8 +137,16 @@
 				8AA0027019C841A2004241CC /* AppDelegate.h */,
 				8AA0027119C841A2004241CC /* AppDelegate.m */,
 				8AA0027319C841A2004241CC /* Main.storyboard */,
-				8AA0027619C841A2004241CC /* ViewController.h */,
-				8AA0027719C841A2004241CC /* ViewController.m */,
+				8AA0029619C841D3004241CC /* FirstTableViewController.h */,
+				8AA0029719C841D3004241CC /* FirstTableViewController.m */,
+				8AA0029919C84208004241CC /* SectionTableViewController.h */,
+				8AA0029A19C84208004241CC /* SectionTableViewController.m */,
+				8AA002A219C84D74004241CC /* StudentTableViewController.h */,
+				8AA002A319C84D74004241CC /* StudentTableViewController.m */,
+				8A9FF94F19C93996006ADD1E /* DetailsTableViewController.h */,
+				8A9FF95019C93996006ADD1E /* DetailsTableViewController.m */,
+				8A9FF95519C9491A006ADD1E /* DetailsObject.h */,
+				8A9FF95619C9491A006ADD1E /* DetailsObject.m */,
 				8AA0027919C841A2004241CC /* Images.xcassets */,
 				8AA0026819C841A2004241CC /* Supporting Files */,
 			);
@@ -150,6 +180,20 @@
 				8AA0028919C841A2004241CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9442782319C96F7F00CD2D0E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8AA0029C19C8421C004241CC /* ClassDetails.h */,
+				8AA0029D19C8421C004241CC /* ClassDetails.m */,
+				8AA0029F19C84AAB004241CC /* SectionDetails.h */,
+				8AA002A019C84AAB004241CC /* SectionDetails.m */,
+				8AA002A519C8511B004241CC /* StudentObject.h */,
+				8AA002A619C8511B004241CC /* StudentObject.m */,
+			);
+			name = Modal;
+			path = School;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +293,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA0027819C841A2004241CC /* ViewController.m in Sources */,
+				8AA002A719C8511B004241CC /* StudentObject.m in Sources */,
+				8A9FF95119C93996006ADD1E /* DetailsTableViewController.m in Sources */,
+				8AA002A119C84AAB004241CC /* SectionDetails.m in Sources */,
+				8AA0029E19C8421C004241CC /* ClassDetails.m in Sources */,
 				8AA0027219C841A2004241CC /* AppDelegate.m in Sources */,
 				8AA0026E19C841A2004241CC /* main.m in Sources */,
+				8AA0029819C841D3004241CC /* FirstTableViewController.m in Sources */,
+				8A9FF95719C9491A006ADD1E /* DetailsObject.m in Sources */,
+				8AA002A419C84D74004241CC /* StudentTableViewController.m in Sources */,
+				8AA0029B19C84208004241CC /* SectionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +507,7 @@
 				8AA0029219C841A2004241CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA0029319C841A2004241CC /* Build configuration list for PBXNativeTarget "SchoolTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +516,7 @@
 				8AA0029519C841A2004241CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
