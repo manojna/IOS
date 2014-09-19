@@ -14,13 +14,14 @@
 		8AA33C9319C9B1B4005C9316 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33C9219C9B1B4005C9316 /* main.m */; };
 		8AA33C9719C9B1B4005C9316 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33C9619C9B1B4005C9316 /* AppDelegate.m */; };
 		8AA33C9A19C9B1B4005C9316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA33C9819C9B1B4005C9316 /* Main.storyboard */; };
-		8AA33C9D19C9B1B4005C9316 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33C9C19C9B1B4005C9316 /* ViewController.m */; };
 		8AA33C9F19C9B1B4005C9316 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA33C9E19C9B1B4005C9316 /* Images.xcassets */; };
 		8AA33CA619C9B1B4005C9316 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA33CA519C9B1B4005C9316 /* XCTest.framework */; };
 		8AA33CA719C9B1B4005C9316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA33C8619C9B1B4005C9316 /* Foundation.framework */; };
 		8AA33CA819C9B1B4005C9316 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA33C8A19C9B1B4005C9316 /* UIKit.framework */; };
 		8AA33CB019C9B1B4005C9316 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA33CAE19C9B1B4005C9316 /* InfoPlist.strings */; };
 		8AA33CB219C9B1B4005C9316 /* SampleTransactionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33CB119C9B1B4005C9316 /* SampleTransactionsTests.m */; };
+		8AA33CBD19C9B210005C9316 /* TransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33CBC19C9B210005C9316 /* TransactionTableViewController.m */; };
+		8AA33CC019C9B24E005C9316 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA33CBF19C9B24E005C9316 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		8AA33C9519C9B1B4005C9316 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA33C9619C9B1B4005C9316 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AA33C9919C9B1B4005C9316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA33C9B19C9B1B4005C9316 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA33C9C19C9B1B4005C9316 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA33C9E19C9B1B4005C9316 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA33CA419C9B1B4005C9316 /* SampleTransactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTransactionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA33CA519C9B1B4005C9316 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AA33CAD19C9B1B4005C9316 /* SampleTransactionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTransactionsTests-Info.plist"; sourceTree = "<group>"; };
 		8AA33CAF19C9B1B4005C9316 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AA33CB119C9B1B4005C9316 /* SampleTransactionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTransactionsTests.m; sourceTree = "<group>"; };
+		8AA33CBB19C9B210005C9316 /* TransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionTableViewController.h; path = ../TransactionTableViewController.h; sourceTree = "<group>"; };
+		8AA33CBC19C9B210005C9316 /* TransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionTableViewController.m; path = ../TransactionTableViewController.m; sourceTree = "<group>"; };
+		8AA33CBE19C9B24E005C9316 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		8AA33CBF19C9B24E005C9316 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				8AA33C9519C9B1B4005C9316 /* AppDelegate.h */,
 				8AA33C9619C9B1B4005C9316 /* AppDelegate.m */,
 				8AA33C9819C9B1B4005C9316 /* Main.storyboard */,
-				8AA33C9B19C9B1B4005C9316 /* ViewController.h */,
-				8AA33C9C19C9B1B4005C9316 /* ViewController.m */,
+				8AA33CBB19C9B210005C9316 /* TransactionTableViewController.h */,
+				8AA33CBC19C9B210005C9316 /* TransactionTableViewController.m */,
+				8AA33CBE19C9B24E005C9316 /* DetailsViewController.h */,
+				8AA33CBF19C9B24E005C9316 /* DetailsViewController.m */,
 				8AA33C9E19C9B1B4005C9316 /* Images.xcassets */,
 				8AA33C8D19C9B1B4005C9316 /* Supporting Files */,
 			);
@@ -249,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA33C9D19C9B1B4005C9316 /* ViewController.m in Sources */,
+				8AA33CBD19C9B210005C9316 /* TransactionTableViewController.m in Sources */,
 				8AA33C9719C9B1B4005C9316 /* AppDelegate.m in Sources */,
 				8AA33C9319C9B1B4005C9316 /* main.m in Sources */,
+				8AA33CC019C9B24E005C9316 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
