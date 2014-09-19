@@ -14,13 +14,13 @@
 		8A9FF97119C96C0B006ADD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF97019C96C0B006ADD1E /* main.m */; };
 		8A9FF97519C96C0B006ADD1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF97419C96C0B006ADD1E /* AppDelegate.m */; };
 		8A9FF97819C96C0B006ADD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FF97619C96C0B006ADD1E /* Main.storyboard */; };
-		8A9FF97B19C96C0B006ADD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF97A19C96C0B006ADD1E /* ViewController.m */; };
 		8A9FF97D19C96C0B006ADD1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FF97C19C96C0B006ADD1E /* Images.xcassets */; };
 		8A9FF98419C96C0B006ADD1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9FF98319C96C0B006ADD1E /* XCTest.framework */; };
 		8A9FF98519C96C0B006ADD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9FF96419C96C0B006ADD1E /* Foundation.framework */; };
 		8A9FF98619C96C0B006ADD1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9FF96819C96C0B006ADD1E /* UIKit.framework */; };
 		8A9FF98E19C96C0B006ADD1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FF98C19C96C0B006ADD1E /* InfoPlist.strings */; };
 		8A9FF99019C96C0B006ADD1E /* FontStylesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF98F19C96C0B006ADD1E /* FontStylesTests.m */; };
+		8A9FF99B19C96D02006ADD1E /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF99A19C96D02006ADD1E /* FontTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		8A9FF97319C96C0B006ADD1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A9FF97419C96C0B006ADD1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8A9FF97719C96C0B006ADD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A9FF97919C96C0B006ADD1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A9FF97A19C96C0B006ADD1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A9FF97C19C96C0B006ADD1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8A9FF98219C96C0B006ADD1E /* FontStylesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontStylesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FF98319C96C0B006ADD1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8A9FF98B19C96C0B006ADD1E /* FontStylesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontStylesTests-Info.plist"; sourceTree = "<group>"; };
 		8A9FF98D19C96C0B006ADD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A9FF98F19C96C0B006ADD1E /* FontStylesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontStylesTests.m; sourceTree = "<group>"; };
+		8A9FF99919C96D02006ADD1E /* FontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTableViewController.h; sourceTree = "<group>"; };
+		8A9FF99A19C96D02006ADD1E /* FontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				8A9FF97319C96C0B006ADD1E /* AppDelegate.h */,
 				8A9FF97419C96C0B006ADD1E /* AppDelegate.m */,
 				8A9FF97619C96C0B006ADD1E /* Main.storyboard */,
-				8A9FF97919C96C0B006ADD1E /* ViewController.h */,
-				8A9FF97A19C96C0B006ADD1E /* ViewController.m */,
+				8A9FF99919C96D02006ADD1E /* FontTableViewController.h */,
+				8A9FF99A19C96D02006ADD1E /* FontTableViewController.m */,
 				8A9FF97C19C96C0B006ADD1E /* Images.xcassets */,
 				8A9FF96B19C96C0B006ADD1E /* Supporting Files */,
 			);
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9FF97B19C96C0B006ADD1E /* ViewController.m in Sources */,
 				8A9FF97519C96C0B006ADD1E /* AppDelegate.m in Sources */,
+				8A9FF99B19C96D02006ADD1E /* FontTableViewController.m in Sources */,
 				8A9FF97119C96C0B006ADD1E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
