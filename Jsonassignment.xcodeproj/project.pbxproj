@@ -14,13 +14,17 @@
 		8AA6292A19CA9E8A00EEA57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6292919CA9E8A00EEA57F /* main.m */; };
 		8AA6292E19CA9E8A00EEA57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6292D19CA9E8A00EEA57F /* AppDelegate.m */; };
 		8AA6293119CA9E8A00EEA57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6292F19CA9E8A00EEA57F /* Main.storyboard */; };
-		8AA6293419CA9E8A00EEA57F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6293319CA9E8A00EEA57F /* ViewController.m */; };
 		8AA6293619CA9E8A00EEA57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6293519CA9E8A00EEA57F /* Images.xcassets */; };
 		8AA6293D19CA9E8A00EEA57F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA6293C19CA9E8A00EEA57F /* XCTest.framework */; };
 		8AA6293E19CA9E8A00EEA57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA6291D19CA9E8A00EEA57F /* Foundation.framework */; };
 		8AA6293F19CA9E8A00EEA57F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA6292119CA9E8A00EEA57F /* UIKit.framework */; };
 		8AA6294719CA9E8A00EEA57F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6294519CA9E8A00EEA57F /* InfoPlist.strings */; };
 		8AA6294919CA9E8A00EEA57F /* JsonassignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6294819CA9E8A00EEA57F /* JsonassignmentTests.m */; };
+		8AA6295319CA9F6400EEA57F /* generated.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AA6295219CA9F6400EEA57F /* generated.json */; };
+		8AA6295619CAA55F00EEA57F /* JsonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6295519CAA55F00EEA57F /* JsonTableViewController.m */; };
+		8AA6295919CAA63400EEA57F /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6295819CAA63400EEA57F /* AboutViewController.m */; };
+		8AA6295C19CAD4C300EEA57F /* NSString+StringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6295B19CAD4C300EEA57F /* NSString+StringCategory.m */; };
+		8AA6296219CADA7700EEA57F /* AboutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6296119CADA7700EEA57F /* AboutObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,21 @@
 		8AA6292C19CA9E8A00EEA57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA6292D19CA9E8A00EEA57F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AA6293019CA9E8A00EEA57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA6293219CA9E8A00EEA57F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA6293319CA9E8A00EEA57F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA6293519CA9E8A00EEA57F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA6293B19CA9E8A00EEA57F /* JsonassignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonassignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA6293C19CA9E8A00EEA57F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AA6294419CA9E8A00EEA57F /* JsonassignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JsonassignmentTests-Info.plist"; sourceTree = "<group>"; };
 		8AA6294619CA9E8A00EEA57F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AA6294819CA9E8A00EEA57F /* JsonassignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonassignmentTests.m; sourceTree = "<group>"; };
+		8AA6295219CA9F6400EEA57F /* generated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = generated.json; path = ../../../generated.json; sourceTree = "<group>"; };
+		8AA6295419CAA55F00EEA57F /* JsonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonTableViewController.h; sourceTree = "<group>"; };
+		8AA6295519CAA55F00EEA57F /* JsonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonTableViewController.m; sourceTree = "<group>"; };
+		8AA6295719CAA63400EEA57F /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		8AA6295819CAA63400EEA57F /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		8AA6295A19CAD4C300EEA57F /* NSString+StringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringCategory.h"; sourceTree = "<group>"; };
+		8AA6295B19CAD4C300EEA57F /* NSString+StringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringCategory.m"; sourceTree = "<group>"; };
+		8AA6296019CADA7700EEA57F /* AboutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutObject.h; path = ../AboutObject.h; sourceTree = "<group>"; };
+		8AA6296119CADA7700EEA57F /* AboutObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutObject.m; path = ../AboutObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +126,15 @@
 				8AA6292C19CA9E8A00EEA57F /* AppDelegate.h */,
 				8AA6292D19CA9E8A00EEA57F /* AppDelegate.m */,
 				8AA6292F19CA9E8A00EEA57F /* Main.storyboard */,
-				8AA6293219CA9E8A00EEA57F /* ViewController.h */,
-				8AA6293319CA9E8A00EEA57F /* ViewController.m */,
+				8AA6295419CAA55F00EEA57F /* JsonTableViewController.h */,
+				8AA6295519CAA55F00EEA57F /* JsonTableViewController.m */,
+				8AA6295219CA9F6400EEA57F /* generated.json */,
+				8AA6296019CADA7700EEA57F /* AboutObject.h */,
+				8AA6296119CADA7700EEA57F /* AboutObject.m */,
+				8AA6295719CAA63400EEA57F /* AboutViewController.h */,
+				8AA6295819CAA63400EEA57F /* AboutViewController.m */,
+				8AA6295A19CAD4C300EEA57F /* NSString+StringCategory.h */,
+				8AA6295B19CAD4C300EEA57F /* NSString+StringCategory.m */,
 				8AA6293519CA9E8A00EEA57F /* Images.xcassets */,
 				8AA6292419CA9E8A00EEA57F /* Supporting Files */,
 			);
@@ -229,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA6293619CA9E8A00EEA57F /* Images.xcassets in Resources */,
+				8AA6295319CA9F6400EEA57F /* generated.json in Resources */,
 				8AA6292819CA9E8A00EEA57F /* InfoPlist.strings in Resources */,
 				8AA6293119CA9E8A00EEA57F /* Main.storyboard in Resources */,
 			);
@@ -249,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA6293419CA9E8A00EEA57F /* ViewController.m in Sources */,
+				8AA6296219CADA7700EEA57F /* AboutObject.m in Sources */,
+				8AA6295619CAA55F00EEA57F /* JsonTableViewController.m in Sources */,
+				8AA6295C19CAD4C300EEA57F /* NSString+StringCategory.m in Sources */,
 				8AA6292E19CA9E8A00EEA57F /* AppDelegate.m in Sources */,
+				8AA6295919CAA63400EEA57F /* AboutViewController.m in Sources */,
 				8AA6292A19CA9E8A00EEA57F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +478,7 @@
 				8AA6294E19CA9E8A00EEA57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA6294F19CA9E8A00EEA57F /* Build configuration list for PBXNativeTarget "JsonassignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				8AA6295119CA9E8A00EEA57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

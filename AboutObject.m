@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  AboutObject.m
 //  Jsonassignment
 //
 //  Created by Paradigm on 9/18/14.
 //  Copyright (c) 2014 paradigmcreatives. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "AboutObject.h"
 
-@interface ViewController : UIViewController
+@implementation AboutObject
 
 @end
