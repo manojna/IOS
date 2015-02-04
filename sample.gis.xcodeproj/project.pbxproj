@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AA93BC21A821FD2009A846E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BC11A821FD2009A846E /* Foundation.framework */; };
+		8AA93BC41A821FD2009A846E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BC31A821FD2009A846E /* CoreGraphics.framework */; };
+		8AA93BC61A821FD2009A846E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BC51A821FD2009A846E /* UIKit.framework */; };
+		8AA93BCC1A821FD2009A846E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93BCA1A821FD2009A846E /* InfoPlist.strings */; };
+		8AA93BCE1A821FD2009A846E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93BCD1A821FD2009A846E /* main.m */; };
+		8AA93BD21A821FD3009A846E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93BD11A821FD3009A846E /* AppDelegate.m */; };
+		8AA93BD51A821FD3009A846E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93BD31A821FD3009A846E /* Main.storyboard */; };
+		8AA93BD81A821FD3009A846E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93BD71A821FD3009A846E /* ViewController.m */; };
+		8AA93BDA1A821FD3009A846E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93BD91A821FD3009A846E /* Images.xcassets */; };
+		8AA93BE11A821FD3009A846E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BE01A821FD3009A846E /* XCTest.framework */; };
+		8AA93BE21A821FD3009A846E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BC11A821FD2009A846E /* Foundation.framework */; };
+		8AA93BE31A821FD3009A846E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA93BC51A821FD2009A846E /* UIKit.framework */; };
+		8AA93BEB1A821FD3009A846E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA93BE91A821FD3009A846E /* InfoPlist.strings */; };
+		8AA93BED1A821FD3009A846E /* sample_gisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA93BEC1A821FD3009A846E /* sample_gisTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AA93BE41A821FD3009A846E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AA93BB61A821FD2009A846E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AA93BBD1A821FD2009A846E;
+			remoteInfo = sample.gis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AA93BBE1A821FD2009A846E /* sample.gis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.gis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA93BC11A821FD2009A846E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AA93BC31A821FD2009A846E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AA93BC51A821FD2009A846E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AA93BC91A821FD2009A846E /* sample.gis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample.gis-Info.plist"; sourceTree = "<group>"; };
+		8AA93BCB1A821FD2009A846E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AA93BCD1A821FD2009A846E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AA93BCF1A821FD2009A846E /* sample.gis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sample.gis-Prefix.pch"; sourceTree = "<group>"; };
+		8AA93BD01A821FD2009A846E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AA93BD11A821FD3009A846E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AA93BD41A821FD3009A846E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AA93BD61A821FD3009A846E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AA93BD71A821FD3009A846E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AA93BD91A821FD3009A846E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AA93BDF1A821FD3009A846E /* sample.gisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sample.gisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA93BE01A821FD3009A846E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8AA93BE81A821FD3009A846E /* sample.gisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sample.gisTests-Info.plist"; sourceTree = "<group>"; };
+		8AA93BEA1A821FD3009A846E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AA93BEC1A821FD3009A846E /* sample_gisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sample_gisTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AA93BBB1A821FD2009A846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BC41A821FD2009A846E /* CoreGraphics.framework in Frameworks */,
+				8AA93BC61A821FD2009A846E /* UIKit.framework in Frameworks */,
+				8AA93BC21A821FD2009A846E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA93BDC1A821FD3009A846E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BE11A821FD3009A846E /* XCTest.framework in Frameworks */,
+				8AA93BE31A821FD3009A846E /* UIKit.framework in Frameworks */,
+				8AA93BE21A821FD3009A846E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AA93BB51A821FD2009A846E = {
+			isa = PBXGroup;
+			children = (
+				8AA93BC71A821FD2009A846E /* sample.gis */,
+				8AA93BE61A821FD3009A846E /* sample.gisTests */,
+				8AA93BC01A821FD2009A846E /* Frameworks */,
+				8AA93BBF1A821FD2009A846E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AA93BBF1A821FD2009A846E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BBE1A821FD2009A846E /* sample.gis.app */,
+				8AA93BDF1A821FD3009A846E /* sample.gisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AA93BC01A821FD2009A846E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BC11A821FD2009A846E /* Foundation.framework */,
+				8AA93BC31A821FD2009A846E /* CoreGraphics.framework */,
+				8AA93BC51A821FD2009A846E /* UIKit.framework */,
+				8AA93BE01A821FD3009A846E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AA93BC71A821FD2009A846E /* sample.gis */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BD01A821FD2009A846E /* AppDelegate.h */,
+				8AA93BD11A821FD3009A846E /* AppDelegate.m */,
+				8AA93BD31A821FD3009A846E /* Main.storyboard */,
+				8AA93BD61A821FD3009A846E /* ViewController.h */,
+				8AA93BD71A821FD3009A846E /* ViewController.m */,
+				8AA93BD91A821FD3009A846E /* Images.xcassets */,
+				8AA93BC81A821FD2009A846E /* Supporting Files */,
+			);
+			path = sample.gis;
+			sourceTree = "<group>";
+		};
+		8AA93BC81A821FD2009A846E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BC91A821FD2009A846E /* sample.gis-Info.plist */,
+				8AA93BCA1A821FD2009A846E /* InfoPlist.strings */,
+				8AA93BCD1A821FD2009A846E /* main.m */,
+				8AA93BCF1A821FD2009A846E /* sample.gis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AA93BE61A821FD3009A846E /* sample.gisTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BEC1A821FD3009A846E /* sample_gisTests.m */,
+				8AA93BE71A821FD3009A846E /* Supporting Files */,
+			);
+			path = sample.gisTests;
+			sourceTree = "<group>";
+		};
+		8AA93BE71A821FD3009A846E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AA93BE81A821FD3009A846E /* sample.gisTests-Info.plist */,
+				8AA93BE91A821FD3009A846E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AA93BBD1A821FD2009A846E /* sample.gis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA93BF01A821FD3009A846E /* Build configuration list for PBXNativeTarget "sample.gis" */;
+			buildPhases = (
+				8AA93BBA1A821FD2009A846E /* Sources */,
+				8AA93BBB1A821FD2009A846E /* Frameworks */,
+				8AA93BBC1A821FD2009A846E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sample.gis;
+			productName = sample.gis;
+			productReference = 8AA93BBE1A821FD2009A846E /* sample.gis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AA93BDE1A821FD3009A846E /* sample.gisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AA93BF31A821FD3009A846E /* Build configuration list for PBXNativeTarget "sample.gisTests" */;
+			buildPhases = (
+				8AA93BDB1A821FD3009A846E /* Sources */,
+				8AA93BDC1A821FD3009A846E /* Frameworks */,
+				8AA93BDD1A821FD3009A846E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA93BE51A821FD3009A846E /* PBXTargetDependency */,
+			);
+			name = sample.gisTests;
+			productName = sample.gisTests;
+			productReference = 8AA93BDF1A821FD3009A846E /* sample.gisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AA93BB61A821FD2009A846E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = paradigmcreatives;
+				TargetAttributes = {
+					8AA93BDE1A821FD3009A846E = {
+						TestTargetID = 8AA93BBD1A821FD2009A846E;
+					};
+				};
+			};
+			buildConfigurationList = 8AA93BB91A821FD2009A846E /* Build configuration list for PBXProject "sample.gis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AA93BB51A821FD2009A846E;
+			productRefGroup = 8AA93BBF1A821FD2009A846E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AA93BBD1A821FD2009A846E /* sample.gis */,
+				8AA93BDE1A821FD3009A846E /* sample.gisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AA93BBC1A821FD2009A846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BDA1A821FD3009A846E /* Images.xcassets in Resources */,
+				8AA93BCC1A821FD2009A846E /* InfoPlist.strings in Resources */,
+				8AA93BD51A821FD3009A846E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA93BDD1A821FD3009A846E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BEB1A821FD3009A846E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AA93BBA1A821FD2009A846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BD81A821FD3009A846E /* ViewController.m in Sources */,
+				8AA93BD21A821FD3009A846E /* AppDelegate.m in Sources */,
+				8AA93BCE1A821FD2009A846E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA93BDB1A821FD3009A846E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA93BED1A821FD3009A846E /* sample_gisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AA93BE51A821FD3009A846E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AA93BBD1A821FD2009A846E /* sample.gis */;
+			targetProxy = 8AA93BE41A821FD3009A846E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AA93BCA1A821FD2009A846E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA93BCB1A821FD2009A846E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AA93BD31A821FD3009A846E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA93BD41A821FD3009A846E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AA93BE91A821FD3009A846E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AA93BEA1A821FD3009A846E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AA93BEE1A821FD3009A846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AA93BEF1A821FD3009A846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AA93BF11A821FD3009A846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample.gis/sample.gis-Prefix.pch";
+				INFOPLIST_FILE = "sample.gis/sample.gis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AA93BF21A821FD3009A846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample.gis/sample.gis-Prefix.pch";
+				INFOPLIST_FILE = "sample.gis/sample.gis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AA93BF41A821FD3009A846E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sample.gis.app/sample.gis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample.gis/sample.gis-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "sample.gisTests/sample.gisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8AA93BF51A821FD3009A846E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sample.gis.app/sample.gis";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sample.gis/sample.gis-Prefix.pch";
+				INFOPLIST_FILE = "sample.gisTests/sample.gisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AA93BB91A821FD2009A846E /* Build configuration list for PBXProject "sample.gis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA93BEE1A821FD3009A846E /* Debug */,
+				8AA93BEF1A821FD3009A846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AA93BF01A821FD3009A846E /* Build configuration list for PBXNativeTarget "sample.gis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA93BF11A821FD3009A846E /* Debug */,
+				8AA93BF21A821FD3009A846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AA93BF31A821FD3009A846E /* Build configuration list for PBXNativeTarget "sample.gisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA93BF41A821FD3009A846E /* Debug */,
+				8AA93BF51A821FD3009A846E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AA93BB61A821FD2009A846E /* Project object */;
+}
